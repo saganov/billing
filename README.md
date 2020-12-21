@@ -8,6 +8,6 @@ Invoice can be paid outside the system, in this case someone from staff should r
 Any of already paid payment can be refunded to the customer by someone from stuff.
 
 A system have to provide the following information:
-- account current balance
-- list of expired unpaid account's invoices
-- list of account payments that sill in progress
+- a list of debtors sorted by age of overdue payment and amount
+- a list of overdue invoices sorted by age of overdue and amount
+- a list of account payments that sill in progress
